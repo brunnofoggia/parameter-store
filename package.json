@@ -42,12 +42,16 @@
         "eslint": "^8.35.0",
         "husky": "^8.0.3",
         "js-yaml": "^4.1.0",
+        "module-alias": "^2.2.2",
         "lodash": "^4.17.21",
         "serverless-secret-baker": "^2.1.0"
     },
     "files": [
         "/dist"
     ],
+    "_moduleAliases": {
+        "@": "./dist"
+    },
     "config": {
         "commitizen": {
             "path": "./node_modules/cz-conventional-changelog"
